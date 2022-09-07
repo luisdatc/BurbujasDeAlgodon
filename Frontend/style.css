@@ -1,0 +1,110 @@
+/*NAVBAR CSS*/
+.navbar{
+    box-shadow: none !important;
+    background-image: url(web/Algodon_fondo.png);
+    position: relative;
+    z-index: auto;
+    padding: 0% !important;
+}
+
+li.nav-item.redes{
+    display: flex;
+    width: 35.62 px;
+    height: 35.62 px;
+}
+
+.iconosnav{
+    width: 48px;
+    height:48px;
+    opacity:0;
+}
+.iconosnav:hover{
+    opacity: 1;
+}
+
+/*VIDEO CSS*/
+.videoback{
+    padding: 0%;
+    margin: 0%;
+    height: auto;
+    top:-50px;
+    position: relative;
+    z-index:-10;
+}
+#boxvideo{
+    position: relative;
+    z-index: 1;
+    left: calc(50% - 958px/2);
+    top: calc(50% - 245px/2 - 1px);    
+    bottom: 167.96px;
+    top: -320.02px;
+    width: 958px;
+    height: 245px;
+    opacity: 0.8;
+    overflow: hidden;
+}
+/*SECCION DEBAJO DEL VIDEO CSS*/
+.seccion3{
+    height: 174px;
+    position: relative;
+    z-index:80;
+    background: linear-gradient(269.17deg, #D4FF79 19.71%, #C2C8FF 50.72%);
+    top:-301px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+/*FOOTER CSS*/
+.row.footerimg{
+    background-image: url(web/Vector.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+footer {
+    background: transparent;
+    color: black;
+    height: 192.6px;
+    padding: 0%;
+    position: relative;
+    z-index: 100;
+    top:-380px;  
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.redesfooter{
+    width: 17px;
+    height: 17px;
+}
+
+h5, h6, ul, a{
+    color: black;
+}
+
+.btn.btn-success{
+    width: 241px;
+    background-color: #2B6100;
+    border-radius: 20px;
+    border-color: #2B6100;
+}
+
+div.footer2{
+    background-color: black;
+    color: #fff;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: -10px !important;
+    height: 57px;
+    overflow: hidden;
+}
+
+.footer2 span{
+    margin: auto;
+}
