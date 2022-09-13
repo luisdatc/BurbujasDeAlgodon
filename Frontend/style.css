@@ -1,10 +1,20 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+/*CSS GOOGLE FONT RULES*/
+/*font-family: 'Dongle', sans-serif;*/
+
+
 /*NAVBAR CSS*/
 .navbar{
     box-shadow: none !important;
-    background-image: url(web/Algodon_fondo.png);
+    background: url(web/Algodon_fondo.png);
+    background-repeat: repeat-x;
+    background-size: cover ;
     position: relative;
     z-index: auto;
     padding: 0% !important;
+    height: 115.99px;
 }
 
 li.nav-item.redes{
@@ -13,12 +23,13 @@ li.nav-item.redes{
     height: 35.62 px;
 }
 
-.iconosnav{
+.nav-item .nav-link span{
     width: 48px;
     height:48px;
-    opacity:0;
+    opacity: 0;
 }
-.iconosnav:hover{
+
+.nav-item .nav-link span:hover{
     opacity: 1;
 }
 
@@ -41,7 +52,6 @@ li.nav-item.redes{
     width: 958px;
     height: 245px;
     opacity: 0.8;
-    overflow: hidden;
 }
 /*SECCION DEBAJO DEL VIDEO CSS*/
 .seccion3{
@@ -51,9 +61,26 @@ li.nav-item.redes{
     background: linear-gradient(269.17deg, #D4FF79 19.71%, #C2C8FF 50.72%);
     top:-301px;
     padding: 30px;
-    overflow: hidden;
+}
+.seccion31{
+    top:-70px;
+    position:relative;
+    z-index:90;
 }
 
+.seccion31.lego{
+    height: 138px;
+    width: 246px;
+    left: -20px;
+}
+#robot{
+    width: 195px; 
+    height: 161px;
+    right: -1120px;
+    position:relative;
+    z-index:85;
+    top:-230px
+}
 /*FOOTER CSS*/
 .row.footerimg{
     background-image: url(web/Vector.png);
@@ -102,9 +129,145 @@ div.footer2{
     margin: 0%;
     margin-bottom: -10px !important;
     height: 57px;
-    overflow: hidden;
 }
 
 .footer2 span{
     margin: auto;
 }
+
+/*css pagina historia*/
+/*GRID*/
+/*
+.grid-layout{
+    display:grid;
+    grid-template-columns: 50% 50%; le coloco 50% porque si le coloco auto el justify content:center hace que se achiquen xq las lleva al centro
+    grid-template-rows: auto auto;
+    width:80%;
+    margin: auto;
+    background-color: #2B6100;
+    padding:20px;
+    justify-content:stretch; este no me hace nada xq solo tengo 2 columnas
+}
+
+.caja{
+    border: 4px solid transparent;
+    background-color:gray;
+    margin: 10px;
+    width: 50%;
+}
+
+.c1{
+    width: 413px;
+    height: 144px;
+    line-height: 144px;
+    font-family: ;
+}
+
+.c2{
+    width: 649.8px;
+    height: 188.27px;
+    background-image: url(imagenes/Ilustraciones.png);
+    background-repeat: no-repeat;
+    margin-left: -77px;
+}
+
+.c3{
+    width: 564px;
+    height: 408px;
+    background-image: url(imagenes/historia3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c4{
+    height: 275px;
+    width: 562px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.c5{
+    width: 588px;
+    height: 383px;
+    background-image: url(imagenes/historia2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+}
+
+.c6{
+    width: 564px;
+    height: 408px;
+    background-image: url(imagenes/historia5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c7{
+    width: 564px;
+    height: 408px;
+    background-image: url(imagenes/historia4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c8{
+    width: 588px;
+    height: 383px;
+    background-image: url(imagenes/historia1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c9{
+    width: 584px;
+    height: 50px;
+    line-height: 36.5px;
+    margin-bottom: 0%;
+}
+
+.c10{
+
+}
+
+.c11{
+    width: 584px;
+    height: 350px;
+}
+
+.c12{
+    width: 555px;
+    height: 350px;
+}
+*/
+body{
+    background: linear-gradient(157.84deg, #4557F6 -0.67%, #4557F6 -0.67%, #4557F6 -0.66%, rgba(0, 255, 41, 0) 96.57%);
+}
+
+.cards{
+    justify-content: center;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+    width: 300px;
+}
+
+.card h1{/*arreglar estas propiedades*/
+    font-family: 'Dongle', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin: 0% !important;
+}
+
+#primercard{
+    height: 176px;
+    width: 387.5px;
+}
+
+/*dropup menu*/
+
