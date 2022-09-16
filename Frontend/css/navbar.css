@@ -1,0 +1,72 @@
+.navbar {
+  background: url(../web/Algodon_fondoNAV.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  position: relative;
+  z-index: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20rem;
+}
+
+.nav__logo {
+  margin-top: -10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 8rem;
+  width: 25%;
+}
+
+.nav__logo-img {
+  width: 8rem;
+}
+
+.nav__title {
+  width: 29%;
+  font-family: "Dongle", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  color: #4557f6;
+  margin-left: 1rem;
+  line-height: 1;
+}
+
+.nav__container {
+  margin-top: -10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.nav__list-item {
+  margin: 0 3rem;
+}
+.nav__list-link {
+  font-family: "Dongle", sans-serif;
+  font-size: 5rem;
+  color: #4557f6;
+}
+
+.nav__list-social {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: -5rem;
+}
+
+.nav__social-logo {
+  width: 5rem;
+  margin-right: 1rem;
+}

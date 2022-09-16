@@ -1,140 +1,141 @@
 /*GOOGLE FONTS*/
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
 
 /*CSS GOOGLE FONT RULES*/
 /*font-family: 'Dongle', sans-serif;*/
 
-
 /*NAVBAR CSS*/
-.navbar{
-    box-shadow: none !important;
+.navbar {
+  /* box-shadow: none !important;
     background: url(web/Algodon_fondoNAV.png);
     background-repeat: repeat-x;
     background-size:contain;
     position: relative;
     z-index: auto;
     padding: 0% !important;
-    height: 115.99px;
+    height: 115.99px; */
 }
 
-li.nav-item.redes{
-    display: flex;
-    width: 35.62 px;
-    height: 35.62 px;
+li.nav-item.redes {
+  display: flex;
+  width: 35.62 px;
+  height: 35.62 px;
 }
 
-.nav-item .nav-link .iconosnav{
-    width: 48px;
-    height:48px;
-    opacity: 0;
+.nav-item .nav-link .iconosnav {
+  width: 48px;
+  height: 48px;
+  opacity: 0;
 }
 
-.nav-item .nav-link .iconosnav:hover{
-    opacity: 1;
+.nav-item .nav-link .iconosnav:hover {
+  opacity: 1;
 }
 
 /*VIDEO CSS*/
-.videoback{
-    padding: 0%;
-    margin: 0%;
-    height: auto;
-    top:-50px;
-    position: relative;
-    z-index:-10;
+.videoback {
+  padding: 0%;
+  margin: 0%;
+  height: auto;
+  top: -160px;
+  position: relative;
+  z-index: -10;
 }
-#boxvideo{
-    position: relative;
-    z-index: 1;
-    left: calc(50% - 958px/2);
-    top: calc(50% - 245px/2 - 1px);    
-    bottom: 167.96px;
-    top: -320.02px;
-    width: 958px;
-    height: 245px;
-    opacity: 0.8;
+#boxvideo {
+  position: relative;
+  z-index: 1;
+  left: calc(50% - 958px / 2);
+  top: calc(50% - 245px / 2 - 1px);
+  bottom: 167.96px;
+  top: -320.02px;
+  width: 958px;
+  height: 245px;
+  opacity: 0.8;
 }
 /*SECCION DEBAJO DEL VIDEO CSS*/
-.seccion3{
-    height: 174px;
-    position: relative;
-    z-index:80;
-    background: linear-gradient(269.17deg, #D4FF79 19.71%, #C2C8FF 50.72%);
-    top:-301px;
-    padding: 30px;
+.seccion3 {
+  height: 174px;
+  position: relative;
+  z-index: 80;
+  background: linear-gradient(269.17deg, #d4ff79 19.71%, #c2c8ff 50.72%);
+  top: -301px;
+  padding: 30px;
 }
-.seccion31{
-    top:-70px;
-    position:relative;
-    z-index:90;
+.seccion31 {
+  top: -70px;
+  position: relative;
+  z-index: 90;
 }
 
-.seccion31.lego{
-    height: 138px;
-    width: 246px;
-    left: -20px;
+.seccion31.lego {
+  height: 138px;
+  width: 246px;
+  left: -20px;
 }
-#robot{
-    width: 195px; 
-    height: 161px;
-    right: -1120px;
-    position:relative;
-    z-index:85;
-    top:-230px
+#robot {
+  width: 195px;
+  height: 161px;
+  right: -1120px;
+  position: relative;
+  z-index: 85;
+  top: -230px;
 }
 /*FOOTER CSS*/
-.footerimg{
-    background-image: url(web/Algodon_fondo.png);
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: cover;
+.footerimg {
+  background-image: url(web/Algodon_fondo.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
 }
 
 footer {
-    background: transparent;
-    color: black;
-    height: 192.6px;
-    padding: 0%;
-    position: relative;
-    z-index: 100;
-    top:-380px;  
-
+  background: transparent;
+  color: black;
+  height: 192.6px;
+  padding: 0%;
+  position: relative;
+  z-index: 100;
+  top: -380px;
 }
 
 a {
   text-decoration: none;
 }
 
-a:hover{
-    color: black;
+a:hover {
+  color: black;
 }
 
-.redesfooter{
-    width: 17px;
-    height: 17px;
+.redesfooter {
+  width: 17px;
+  height: 17px;
 }
 
-h5, h6, ul, a{
-    color: black;
+h5,
+h6,
+ul,
+a {
+  color: black;
 }
 
-.btn.btn-success{
-    width: 241px;
-    background-color: #2B6100;
-    border-radius: 20px;
-    border-color: #2B6100;
+.btn.btn-success {
+  width: 241px;
+  background-color: #2b6100;
+  border-radius: 20px;
+  border-color: #2b6100;
 }
 
-div.footer2{
-    background-color: black;
-    color: #fff;
-    padding: 0%;
-    margin: 0%;
-    margin-bottom: -10px !important;
-    height: 57px;
+div.footer2 {
+  background-color: black;
+  color: #fff;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: -10px !important;
+  height: 57px;
 }
 
-.footer2 span{
-    margin: auto;
+.footer2 span {
+  margin: auto;
 }
 
 /*css pagina historia*/
@@ -242,34 +243,41 @@ div.footer2{
     height: 350px;
 }
 */
-body{
-    background: linear-gradient(157.84deg, #4557F6 -0.67%, #4557F6 -0.67%, #4557F6 -0.66%, rgba(0, 255, 41, 0) 96.57%);
+body {
+  /* background: linear-gradient(
+    157.84deg,
+    #4557f6 -0.67%,
+    #4557f6 -0.67%,
+    #4557f6 -0.66%,
+    rgba(0, 255, 41, 0) 96.57%
+  ); */
+  background-color: transparent;
 }
 
-.cards{
-    justify-content: center;
+.cards {
+  justify-content: center;
 }
 
-.card{
-    background-color: transparent;
-    border: none;
-    width: 300px;
+.card {
+  background-color: transparent;
+  border: none;
+  width: 300px;
 }
 
-.card h1{/*arreglar estas propiedades*/
-    font-family: 'Dongle', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-    margin: 0% !important;
+.card h1 {
+  /*arreglar estas propiedades*/
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin: 0% !important;
 }
 
-#primercard{
-    height: 176px;
-    width: 387.5px;
+#primercard {
+  height: 176px;
+  width: 387.5px;
 }
 
 /*dropup menu*/
-
