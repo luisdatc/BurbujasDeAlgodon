@@ -8,9 +8,9 @@
 /*NAVBAR CSS*/
 .navbar{
     box-shadow: none !important;
-    background: url(web/Algodon_fondo.png);
+    background: url(web/Algodon_fondoNAV.png);
     background-repeat: repeat-x;
-    background-size: cover ;
+    background-size:contain;
     position: relative;
     z-index: auto;
     padding: 0% !important;
@@ -23,13 +23,13 @@ li.nav-item.redes{
     height: 35.62 px;
 }
 
-.nav-item .nav-link span{
+.nav-item .nav-link .iconosnav{
     width: 48px;
     height:48px;
     opacity: 0;
 }
 
-.nav-item .nav-link span:hover{
+.nav-item .nav-link .iconosnav:hover{
     opacity: 1;
 }
 
@@ -82,10 +82,11 @@ li.nav-item.redes{
     top:-230px
 }
 /*FOOTER CSS*/
-.row.footerimg{
-    background-image: url(web/Vector.png);
+.footerimg{
+    background-image: url(web/Algodon_fondo.png);
     background-repeat: no-repeat;
     background-color: transparent;
+    background-size: cover;
 }
 
 footer {
