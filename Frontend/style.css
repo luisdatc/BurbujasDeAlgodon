@@ -5,8 +5,8 @@
 /*font-family: 'Dongle', sans-serif;*/
 
 /*NAVBAR CSS*/
-.navbar {
-  /* box-shadow: none !important;
+/* .navbar { */
+/* box-shadow: none !important;
     background: url(web/Algodon_fondoNAV.png);
     background-repeat: repeat-x;
     background-size:contain;
@@ -14,7 +14,7 @@
     z-index: auto;
     padding: 0% !important;
     height: 115.99px; */
-}
+/* } */
 
 /* li.nav-item.redes {
   display: flex;
@@ -36,17 +36,16 @@
 
 .home__video {
   margin-top: -20rem;
-  height: 90%;
+  margin-bottom: -70rem;
 }
 .videoback {
   padding: 0%;
   margin: 0%;
   height: auto;
-
   position: relative;
   z-index: -5;
 }
-#boxvideo {
+/* #boxvideo {
   position: relative;
   z-index: 1;
   left: calc(50% - 958px / 2);
@@ -56,7 +55,63 @@
   width: 958px;
   height: 245px;
   opacity: 0.8;
+} */
+
+.home__boxvideo {
+  position: relative;
+  z-index: 20;
+  opacity: 0.9;
+  background: url(./web/box1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150rem;
+  height: 50rem;
+  margin: 0 auto;
+  top: -75rem;
+  text-align: center;
 }
+
+.home__boxvideo-tittle {
+  padding-top: 10rem;
+  font-family: "Dongle", sans-serif;
+  font-size: 10rem;
+  font-weight: 700;
+  color: #4557f6;
+}
+
+.home__boxvideo-bajada {
+  font-family: "Dongle", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.home__boxvideo-botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home__boxvideo-btn-verde {
+  border-radius: 15rem;
+  background-color: #2b6100;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 7rem;
+  padding: 0 2rem;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.home__boxvideo-btn-blue {
+  border-radius: 15rem;
+  background-color: #4557f6;
+  color: white;
+  font-family: "Dongle", sans-serif;
+  font-size: 7rem;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
 /*SECCION DEBAJO DEL VIDEO CSS*/
 .seccion3 {
   height: 30rem;
