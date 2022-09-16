@@ -29,8 +29,9 @@
   font-size: 5rem;
   font-weight: 600;
   color: #4557f6;
+  margin-top: 1.2rem;
   margin-left: 1rem;
-  line-height: 1;
+  line-height: 0.5;
 }
 
 .nav__container {
