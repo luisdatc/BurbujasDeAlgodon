@@ -8,6 +8,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 20rem;
+  padding-top: 5rem;
 }
 
 .nav__logo {
@@ -20,13 +21,13 @@
 }
 
 .nav__logo-img {
-  width: 8rem;
+  width: 10rem;
 }
 
 .nav__title {
-  width: 29%;
+  width: 27%;
   font-family: "Dongle", sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: 600;
   color: #4557f6;
   margin-top: 1.2rem;
@@ -55,8 +56,9 @@
 }
 .nav__list-link {
   font-family: "Dongle", sans-serif;
-  font-size: 5rem;
+  font-size: 7rem;
   color: #4557f6;
+  text-decoration: none;
 }
 
 .nav__list-social {

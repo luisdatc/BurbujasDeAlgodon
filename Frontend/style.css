@@ -16,7 +16,7 @@
     height: 115.99px; */
 }
 
-li.nav-item.redes {
+/* li.nav-item.redes {
   display: flex;
   width: 35.62 px;
   height: 35.62 px;
@@ -30,16 +30,21 @@ li.nav-item.redes {
 
 .nav-item .nav-link .iconosnav:hover {
   opacity: 1;
-}
+} */
 
 /*VIDEO CSS*/
+
+.home__video {
+  margin-top: -20rem;
+  height: 90%;
+}
 .videoback {
   padding: 0%;
   margin: 0%;
   height: auto;
-  top: -160px;
+
   position: relative;
-  z-index: -10;
+  z-index: -5;
 }
 #boxvideo {
   position: relative;
@@ -54,40 +59,47 @@ li.nav-item.redes {
 }
 /*SECCION DEBAJO DEL VIDEO CSS*/
 .seccion3 {
-  height: 174px;
+  height: 30rem;
   position: relative;
-  z-index: 80;
+  z-index: -1;
   background: linear-gradient(269.17deg, #d4ff79 19.71%, #c2c8ff 50.72%);
-  top: -301px;
+  top: 10rem;
   padding: 30px;
+  margin-top: -30rem;
+}
+
+.seccion3-txt {
+  font-family: "Dongle", sans-serif;
+  font-size: 10rem;
+  margin-top: 5rem;
 }
 .seccion31 {
-  top: -70px;
+  top: -10rem;
   position: relative;
   z-index: 90;
 }
 
 .seccion31.lego {
-  height: 138px;
-  width: 246px;
+  width: 40rem;
+  top: -10rem;
   left: -20px;
+  z-index: 10;
 }
 #robot {
-  width: 195px;
-  height: 161px;
-  right: -1120px;
+  width: 40rem;
   position: relative;
   z-index: 85;
-  top: -230px;
+  top: -10rem;
+  right: -30rem;
 }
 /*FOOTER CSS*/
-.footerimg {
+/* .footerimg {
   background-image: url(web/Algodon_fondo.png);
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
-}
-
+} */
+/* 
 footer {
   background: transparent;
   color: black;
@@ -136,7 +148,7 @@ div.footer2 {
 
 .footer2 span {
   margin: auto;
-}
+} */
 
 /*css pagina historia*/
 /*GRID*/
