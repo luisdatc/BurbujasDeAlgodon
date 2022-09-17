@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(
+    157.84deg,
+    #4557f6 -0.67%,
+    #4557f6 -0.67%,
+    #4557f6 -0.66%,
+    rgba(33, 174, 139, 0.479215) 47.95%,
+    rgba(0, 255, 41, 0) 96.57%
+  );
+}
+
+.row {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.txt_main {
+  line-height: 88.32px;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  width: 387.5px;
+  color: #ffffff;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.cardsf1 {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+}
+
+.card-body{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  padding: 0%;
+}
+
+.card h1 {
+  /*arreglar estas propiedades*/
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin: 0% !important;
+}
+
+.row {
+  justify-content: center;
+}
+
+.cards {
+  margin-top: 20px;
+}
+
+.cardsf1 {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+  width: 300px;
+}
+
+.card h1 {
+  /*arreglar estas propiedades*/
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin: 0% !important;
+}

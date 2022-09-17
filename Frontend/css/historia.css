@@ -1,0 +1,46 @@
+/*GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+
+body {
+  background: linear-gradient(
+    157.84deg,
+    #4557f6 -0.67%,
+    #4557f6 -0.67%,
+    #4557f6 -0.66%,
+    rgba(33, 174, 139, 0.479215) 47.95%,
+    rgba(0, 255, 41, 0) 96.57%
+  );
+}
+
+.txt__main{
+    font-family: "Dongle", sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    color: #fff;
+}
+
+.txt__card {
+  margin: auto;
+}
+.txt__last {
+  text-align: justify;
+}
+
+.letter__capital {
+  line-height: 26px;
+  font-family: "Dongle", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  width: 41px;
+  height: 62px;
+}
+
+.txt__obj{
+    line-height: 26px;
+    font-family: "Dongle", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 36.5px;
+    margin-top: 20px;
+}

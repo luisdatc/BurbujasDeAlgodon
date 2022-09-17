@@ -1,317 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/staff.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="normalize.css" />
     <title>Docentes</title>
-</head>
-<body>
+  </head>
+  <body>
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand me-3 mb-1 d-flex align-items-center" href="#">
-            <img src="web/logo-web.png" height="" alt="Burbujas de Algodon" loading="lazy" style="margin-top: 2px;"/>
-            Burbujas <br> de algod&oacute;n
-          </a>
-          <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
-            <div></div>
-            <ul class="navbar-nav flex-row d-none d-md-flex d-flex align-items-center">
-              <li class="nav-item me-3 me-lg-3">
-                  <a class="nav-link" href="#">
-                      <span><img src="materiales/home.png" class="iconosnav">Inicio</span>
-                  </a>
+    <nav class="navbar container-fluid">
+      <div class="nav__logo">
+        <img
+          src="web/logo-web.png"
+          alt="Burbujas de Algodon"
+          class="nav__logo-img"
+        />
+        <h2 class="nav__title">Burbujas de Algodon</h2>
+      </div>
+
+      <div class="nav__container">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a href="" class="nav__list-link"> Inicio </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="" class="nav__list-link">Historia</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="" class="nav__list-link">Programa</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="" class="nav__list-link">Docentes</a>
+          </li>
+        </ul>
+        <ul class="nav__list-social">
+          <li class="nav__list-item-soc">
+            <a href="" class="nav__list-link"
+              ><img
+                src="web/Instagram.png"
+                alt="Link al Instagram de Burbujas de Algodón"
+                class="nav__social-logo"
+            /></a>
+          </li>
+          <li class="nav__list-item-soc">
+            <a href="" class="nav__list-link"
+              ><img
+                src="web/Facebook.png"
+                alt="Link al Facebook de Burbujas de Algodón"
+                class="nav__social-logo"
+            /></a>
+          </li>
+          <li class="nav__list-item-soc">
+            <a href="" class="nav__list-link"
+              ><img
+                src="web/Twitter.png"
+                alt="Link al Twitter de Burbujas de Algodón"
+                class="nav__social-logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container-fluid">
+        <div class="cards row">
+          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <h1 class="txt_main">
+              Nuestro <br />
+              staff&nbsp;docente
+            </h1>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="imagenes/Ilustration_1.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img
+                src="imagenes/Ilustration_2.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="row cardsf1">
+          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Directora | Stephany Rodriguez</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Maria Lopez</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Lucia Santana</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Lorena Vigna</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff5.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Pedro Alonso</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff6.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Ricardo Rodriguez</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff7.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">CDocente | Juan Martinez</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff8.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Rodrigo Almodobar</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+            <div class="card" style="width: 18rem">
+              <img src="imagenes/staff9.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Docente | Luis Perez</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
+                  maximus massa risus, quis sollicitudin nisl aliquam ut.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__navigation">
+        <ul class="footer__nav-list">
+          <h4 class="footer__tittle">Institucional</h4>
+          <li class="footer__list-item">
+            <a href="" class="footer__link">Historia</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="" class="footer__link">Staff</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="" class="footer__link">Horario Escolar</a>
+          </li>
+        </ul>
+        <ul class="footer__nav-list">
+          <h4 class="footer__tittle">Plan educativo</h4>
+          <li class="footer__list-item">
+            <a href="" class="footer__link">Actividades</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="" class="footer__link">Actividades extracurriculares</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="" class="footer__link">Mas sobre nuestro método</a>
+          </li>
+        </ul>
+        <div class="footer__container">
+          <div class="footer__vacantes">
+            <p class="footer__bajada">¡Puedes reservar ya!</p>
+            <p class="footer__bajada">Mas de 50 vacantes disponibles</p>
+            <a href="" class="footer__btn">¡Reservar vacante!</a>
+          </div>
+          <div class="footer__social">
+            <p class="footer__bajada">Siguenos</p>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a href="" class="footer__link">
+                  <img
+                    src="./web/Instagram.png"
+                    alt=""
+                    class="footer__social-icon"
+                  />
+                </a>
               </li>
-              <li class="nav-item me-sm-1 me-lg-3">
-                  <a class="nav-link" href="#">
-                      <span><img src="materiales/history.png" class="iconosnav">Historia</span>
-                  </a>
+              <li class="footer__social-item">
+                <a href="" class="footer__link">
+                  <img
+                    src="./web/Facebook.png"
+                    alt=""
+                    class="footer__social-icon"
+                /></a>
               </li>
-              <li class="nav-item me-3 me-lg-3">
-                  <a class="nav-link" href="#">
-                      <span><img src="materiales/calendar.png" class="iconosnav">Programa</span>
-                  </a>
-              </li>
-              <li class="nav-item me-3 me-lg-3">
-                  <a class="nav-link" href="#">
-                      <span><img src="materiales/group.png" class="iconosnav">Docente</span>
-                  </a>
-              </li>
-              <li class="nav-item me-3 me-lg-2">
-                  <a class="nav-link"  href="#"><img src="web/Instagram.png" alt=""></a>
-              </li>
-              <li class="nav-item me-3 me-lg-2">
-                  <a class="nav-link" src="" href="#"><img src="web/Facebook.png" alt=""></a>
-              </li>
-              <li class="nav-item me-5 me-lg-5">
-                  <a class="nav-link" src="" href="#"><img src="web/Twitter.png" alt=""></a>
+              <li class="footer__social-item">
+                <a href="" class="footer__link">
+                  <img
+                    src="./web/Twitter.png"
+                    alt=""
+                    class="footer__social-icon"
+                /></a>
               </li>
             </ul>
           </div>
         </div>
-    </nav>
-
-    <section >
-        <div class="container-fluid">
-            <div class="cards row">
-                <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-
-            <div class="cards row">
-                <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-
-            <div class="cards row">
-                <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="cards row">
-                <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>
-
-
-<!--AGREGAR MEJOR DE UNA SOLA CARD PARA HACERLA RESPONSIVE    
-<div class="container-fluid cards">
-    <div class="row row-cols-1 row-cols-md-3 g-5 mb-2">
-        <div class="col">
-            <div class="card h-100" id="primieracard">
-                <h1>Nuestro <br> staff docente</h1>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
-            </div>
-        </div>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-5 mb-4">
-        <div class="col">
-            <div class="card h-100" style="background-color: transparent;">
-                <img src="imagenes/staff1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Directora | Stephany Rodriguez</h6>
-                    <p class="card-text">This is a wider card with supporting text below a
-                        s a natural lead-in to additional content. This content is a little bit longer.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff2.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Maria Lopez</h6>
-                    <p class="card-text">This card has supporting text below as a 
-                        natural lead-in to additional content.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff3.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Lucia Santana</h6>
-                    <p class="card-text">This is a wider card with supporting text below as a natural 
-                        lead-in to additional content. This card has even longer content than the first to 
-                        show that equal height action.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-5 mb-4">
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff4.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Lorena Vigna</h6>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in 
-                        to additional content. This content is a little bit longer.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff5.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Pedro Alonso</h6>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional 
-                        content.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff6.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Ricardo Rodriguez</h6>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in 
-                        to additional content. This card has even longer content than the first to show that equal height 
-                        action.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-5 mb-4">
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff7.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Juan Martinez</h6>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to 
-                        additional content. This content is a little bit longer.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff8.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Rodrigo Almodobar</h6>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to 
-                        additional content.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card h-100">
-                <img src="imagenes/staff9.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h6 class="card-title">Docente | Luis Perez</h6>
-                    <p class="card-text">This is a wider card with supporting text below as a natural 
-                        lead-in to additional content. This card has even longer content than the first
-                            to show that equal height action.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
--->
-</body>
+      </div>
+      <div class="footer__bottom">
+        <img src="web/logo-web-footer.png" alt="" class="footer__bottom-logo" />
+        <h4 class="footer__bottom-txt">
+          Burbujas de Algodon © Derechos reservados 2022
+        </h4>
+      </div>
+    </footer>
+  </body>
 </html>
