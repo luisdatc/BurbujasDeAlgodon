@@ -10,7 +10,9 @@ background-color: transparent;
     grid-template-columns: auto auto auto auto; /*le coloco 50% porque si le coloco auto el justify content:center hace que se achiquen xq las lleva al centro*/
     grid-template-rows: auto auto auto auto;
     margin: 0 auto;
-    z-index: auto;
+    position: relative;
+    /*top: -155px;
+    z-index: -1;*/
 }
 .caja{
     background-color:gray;
@@ -21,7 +23,8 @@ background-color: transparent;
     grid-column: 1 / 5;
     grid-row: 1 / 5;
     background-image: url(../imagenes/Pexels\ Photo\ by\ cottonbro.png);
-    background-size:auto;
+    background-size:cover;
+    background-position: center;
     height: 974px;
     width:auto;/*1920px;*/
     background-repeat: no-repeat;
@@ -141,6 +144,13 @@ form h5{
     text-align: start;
     margin-top: 15px;
     margin-left: 17px;
+    font-family: Dongle;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 .input__check{
     background: #FFFFFF;
@@ -156,6 +166,12 @@ form h5{
     text-align: start;
     margin-top: 11px;
     margin-left: 13px;
+    font-family: Dongle;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 #check2{
     margin-top: 12px;
