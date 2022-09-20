@@ -379,3 +379,53 @@ body {
   letter-spacing: 0em;
   text-align: justify;
 }
+
+/*PRUEBA NAVEGACION*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav2 {
+  --nav-gap: 15px;
+  padding: var(--nav-gap);
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav-item1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: var(--nav-gap);
+}
+
+/*.nav-link1:hover ~ .nav-label1 {
+  opacity: 1;
+}*/
+
+.nav-label1 {
+  color: #000000;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+
+.nav-link1 {
+  background: #c4c4c4;
+  border-radius: 50%;
+  height: var(--nav-gap);
+  margin-left: var(--nav-gap);
+  transition: transform 0.1s;
+  width: var(--nav-gap);
+}
+
+.nav-link-selected {
+  background: #ffffff;
+  transform: scale(1.4);
+  width: 15px;
+  border-radius: 55.19px;
+  height: 40px;
+}
