@@ -7,6 +7,9 @@
 }
 
 body {
+  /*background-image: url(/imagenes/Frame_29sinlinea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
   background: linear-gradient(
     157.84deg,
     #4557f6 -0.67%,
@@ -21,15 +24,15 @@ body {
   grid-template-columns: 134px 134px 134px 134px 134px 134px 134px 134px 134px 134px 134px 134px;
   grid-template-rows: auto auto auto auto;
   margin: 0 auto;
-  padding: 20px;  
+  padding: 20px;
   justify-content: center;
   /*background-color: green;
   border: 1px solid black;*/
 }
 
 .caja {
-  border: 1px solid black;
-  background-color: gray;
+  /*border: 1px solid black;
+  background-color: gray;*/
   text-align: center;
   line-height: 150px;
   margin: 24px;
@@ -37,7 +40,7 @@ body {
 
 /*PLAN EDUCATIVO*/
 
-.section__1{
+.section__1 {
   background-image: url(../imagenes/Ellipse\ 16.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -48,7 +51,7 @@ body {
   align-items: center;
 }
 
-.section__1 h1{
+.section__1 h1 {
   font-family: Dongle;
   font-size: 96px;
   font-weight: 700;
@@ -79,10 +82,9 @@ body {
   font-weight: 300;
   line-height: 23px;
   letter-spacing: 0em;
-
 }
 
-.c2 h3{
+.c2 h3 {
   font-family: FuenteDongle;
   font-size: 64px;
   font-weight: 700;
@@ -126,7 +128,7 @@ body {
   line-height: 23px;
   letter-spacing: 0em;
 }
-.c5 h3{
+.c5 h3 {
   font-family: FuenteDongle;
   font-size: 64px;
   font-weight: 700;
@@ -159,9 +161,9 @@ body {
   background-image: url(../imagenes/Ellipse\ 19.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left;
   height: 626px;
-  /*margin-top:-90px;*/
+  margin-top: -2rem;
+  margin-left: 5rem;
 }
 
 .c8 {
@@ -172,7 +174,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   height: 626px;
-  margin-top: -100px;
+  margin-top: -20px;
 }
 
 .c9 {
@@ -190,7 +192,7 @@ body {
   text-align: justified;
 }
 
-.c9 h3{
+.c9 h3 {
   font-family: FuenteDongle;
   font-size: 64px;
   font-weight: 700;
@@ -222,7 +224,7 @@ body {
 
 /*ACTIVIDADES INTERNAS*/
 
-.section__2{
+.section__2 {
   background-image: url(../imagenes/Ellipse\ 17.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -232,7 +234,7 @@ body {
   align-items: center;
 }
 
-.section__2 h3{
+.section__2 h3 {
   font-family: Dongle;
   font-size: 96px;
   font-weight: 700;
@@ -275,7 +277,7 @@ body {
   text-align: justify;
 }
 
-.c14 h3{
+.c14 h3 {
   font-family: FuenteDongle;
   font-size: 64px;
   font-weight: 700;
@@ -291,13 +293,13 @@ body {
   text-align: justify;
 }
 
-.c15 h3{
+.c15 h3 {
   font-family: FuenteDongle;
   font-size: 64px;
   font-weight: 700;
   line-height: 37px;
   letter-spacing: 0em;
-  text-align:justify;  
+  text-align: justify;
 }
 
 .c16 {
@@ -328,7 +330,7 @@ body {
   text-align: justify;
 }
 
-.c171 h3{
+.c171 h3 {
   font-family: FuenteDongle;
   font-size: 64px;
   font-weight: 700;
@@ -346,7 +348,7 @@ body {
 
 /*ACTIVIDADES EXTRACURRICULARES*/
 
-.section__3{
+.section__3 {
   background-image: url(../imagenes/Ellipse\ 17.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -356,7 +358,7 @@ body {
   align-items: center;
 }
 
-.section__3 h3{
+.section__3 h3 {
   font-family: Dongle;
   font-size: 96px;
   font-weight: 700;
@@ -368,10 +370,10 @@ body {
   grid-template-columns: 134px 134px 134px 134px 134px 134px 134px 134px 134px 134px 134px 134px;
   grid-template-rows: auto auto;
   margin: 0 auto;
-  background-color: green;
   padding: 20px;
-  border: 1px solid black;
   justify-content: center;
+  /*background-color: green;
+  border: 1px solid black;*/
 }
 
 .c19 {
@@ -455,7 +457,7 @@ body {
 
 /*HORARIO ESCOLAR*/
 
-.section__4{
+.section__4 {
   background-image: url(../imagenes/Ellipse\ 17.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -465,7 +467,7 @@ body {
   align-items: center;
 }
 
-.section__4 h3{
+.section__4 h3 {
   font-family: Dongle;
   font-size: 96px;
   font-weight: 700;
@@ -497,7 +499,7 @@ body {
   grid-row: 1/2;
   background-image: url(../imagenes/W.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: contain;
 }
 
