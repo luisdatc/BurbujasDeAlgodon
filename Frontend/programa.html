@@ -11,11 +11,29 @@
       rel="stylesheet"
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/programa.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
@@ -23,57 +41,45 @@
     <title>Programa</title>
   </head>
   <body>
-    <nav class="navbar container-fluid">
-      <div class="nav__logo">
-        <img
-          src="web/logo-web.png"
-          alt="Burbujas de Algodon"
-          class="nav__logo-img"
-        />
-        <h2 class="nav__title">Burbujas de Algodon</h2>
-      </div>
-
-      <div class="nav__container">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="index.html" class="nav__list-link"> Inicio </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="historia.html" class="nav__list-link">Historia</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="programa.html" class="nav__list-link">Programa</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="staff.html" class="nav__list-link">Docentes</a>
-          </li>
-        </ul>
-        <ul class="nav__list-social">
-          <li class="nav__list-item-soc">
-            <a href="" class="nav__list-link"
-              ><img
-                src="web/Instagram.png"
-                alt="Link al Instagram de Burbujas de Algodón"
-                class="nav__social-logo"
-            /></a>
-          </li>
-          <li class="nav__list-item-soc">
-            <a href="" class="nav__list-link"
-              ><img
-                src="web/Facebook.png"
-                alt="Link al Facebook de Burbujas de Algodón"
-                class="nav__social-logo"
-            /></a>
-          </li>
-          <li class="nav__list-item-soc">
-            <a href="" class="nav__list-link"
-              ><img
-                src="web/Twitter.png"
-                alt="Link al Twitter de Burbujas de Algodón"
-                class="nav__social-logo"
-            /></a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg">
+      <img
+        src="materiales/Menu.png"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      />
+      <a class="navbar-brand" href="index.html"
+        ><img src="web/logo-web.png" alt="" /> Burbujas de Algodon</a
+      >
+      <div
+        id="navbarCollapse"
+        class="collapse navbar-collapse justify-content-start"
+      >
+        <div class="navbar-nav ml-auto nav__links">
+          <a href="index.html" class="nav-item nav-link"
+            ><img src="materiales/home.png" alt="" />Inicio</a
+          >
+          <a href="historia.html" class="nav-item nav-link"
+            ><img src="materiales/history.png" alt="" />Historia</a
+          >
+          <a href="programa.html" class="nav-item nav-link"
+            ><img src="materiales/calendar.png" alt="" />Programa</a
+          >
+          <a href="staff.html" class="nav-item nav-link"
+            ><img src="materiales/group.png" alt="" />Docentes</a
+          >
+        </div>
+        <div class="navbar-nav">
+          <a href="www.instagram.com" class="nav-item nav-link"
+            ><img src="web/Instagram.png" alt=""
+          /></a>
+          <a href="www.facebook.com" class="nav-item nav-link"
+            ><img src="web/Facebook.png" alt=""
+          /></a>
+          <a href="www.twitter.com" class="nav-item nav-link"
+            ><img src="web/Twitter.png" alt=""
+          /></a>
+        </div>
       </div>
     </nav>
     <section class="main__tittle">

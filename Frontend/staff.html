@@ -4,83 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/staff.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="normalize.css" />
     <title>Staff Docente</title>
   </head>
   <body>
-
-    <nav class="navbar container-fluid">
-      <div class="nav__logo">
-        <img
-          src="web/logo-web.png"
-          alt="Burbujas de Algodon"
-          class="nav__logo-img"
-        />
-        <h2 class="nav__title">Burbujas de Algodon</h2>
-      </div>
-
-      <div class="nav__container">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="index.html" class="nav__list-link"> Inicio </a>
-          </li>
-          <li class="nav__list-item">
-            <a href="historia.html" class="nav__list-link">Historia</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="programa.html" class="nav__list-link">Programa</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="staff.html" class="nav__list-link">Docentes</a>
-          </li>
-        </ul>
-        <ul class="nav__list-social">
-          <li class="nav__list-item-soc">
-            <a href="" class="nav__list-link"
-              ><img
-                src="web/Instagram.png"
-                alt="Link al Instagram de Burbujas de Algodón"
-                class="nav__social-logo"
-            /></a>
-          </li>
-          <li class="nav__list-item-soc">
-            <a href="" class="nav__list-link"
-              ><img
-                src="web/Facebook.png"
-                alt="Link al Facebook de Burbujas de Algodón"
-                class="nav__social-logo"
-            /></a>
-          </li>
-          <li class="nav__list-item-soc">
-            <a href="" class="nav__list-link"
-              ><img
-                src="web/Twitter.png"
-                alt="Link al Twitter de Burbujas de Algodón"
-                class="nav__social-logo"
-            /></a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg">
+      <img
+        src="materiales/Menu.png"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      />
+      <a class="navbar-brand" href="index.html"
+        ><img src="web/logo-web.png" alt="" /> Burbujas de Algodon</a
+      >
+      <div
+        id="navbarCollapse"
+        class="collapse navbar-collapse justify-content-start"
+      >
+        <div class="navbar-nav ml-auto nav__links">
+          <a href="index.html" class="nav-item nav-link"
+            ><img src="materiales/home.png" alt="" />Inicio</a
+          >
+          <a href="historia.html" class="nav-item nav-link"
+            ><img src="materiales/history.png" alt="" />Historia</a
+          >
+          <a href="programa.html" class="nav-item nav-link"
+            ><img src="materiales/calendar.png" alt="" />Programa</a
+          >
+          <a href="staff.html" class="nav-item nav-link"
+            ><img src="materiales/group.png" alt="" />Docentes</a
+          >
+        </div>
+        <div class="navbar-nav">
+          <a href="www.instagram.com" class="nav-item nav-link"
+            ><img src="web/Instagram.png" alt=""
+          /></a>
+          <a href="www.facebook.com" class="nav-item nav-link"
+            ><img src="web/Facebook.png" alt=""
+          /></a>
+          <a href="www.twitter.com" class="nav-item nav-link"
+            ><img src="web/Twitter.png" alt=""
+          /></a>
+        </div>
       </div>
     </nav>
 
     <section>
       <div class="container-fluid">
-        <div class="cards row">
+        <div class="cards row cards1">
           <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
             <h1 class="txt_main">
               Nuestro <br />
@@ -91,7 +96,7 @@
             <div class="card" style="width: 18rem">
               <img
                 src="imagenes/Ilustration_1.png"
-                class="card-img-top"
+                class="card-img-top cardimg"
                 alt="..."
               />
             </div>
@@ -100,134 +105,135 @@
             <div class="card" style="width: 18rem">
               <img
                 src="imagenes/Ilustration_2.png"
-                class="card-img-top"
+                class="card-img-top cardimg"
                 alt="..."
               />
             </div>
           </div>
         </div>
-
-        <div class="row cardsf1">
-          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff1.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Directora | Stephany Rodriguez</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff2.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Maria Lopez</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff3.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Lucia Santana</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
+      </div>
+    </section>
+    <section class="section__cards">
+      <div class="row cardsf1">
+        <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Directora | Stephany Rodriguez</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff4.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Lorena Vigna</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff5.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Pedro Alonso</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff6.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Ricardo Rodriguez</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Maria Lopez</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff7.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">CDocente | Juan Martinez</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Lucia Santana</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
             </div>
           </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff8.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Rodrigo Almodobar</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Lorena Vigna</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
             </div>
           </div>
-          <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
-            <div class="card" style="width: 18rem">
-              <img src="imagenes/staff9.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Docente | Luis Perez</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aenean pellentesque nunc et sem efficitur blandit. Nulla
-                  maximus massa risus, quis sollicitudin nisl aliquam ut.
-                </p>
-              </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff5.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Pedro Alonso</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff6.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Ricardo Rodriguez</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-0 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff7.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">CDocente | Juan Martinez</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff8.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Rodrigo Almodobar</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 col-xl-3">
+          <div class="card" style="width: 18rem">
+            <img src="imagenes/staff9.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Docente | Luis Perez</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                pellentesque nunc et sem efficitur blandit. Nulla maximus massa
+                risus, quis sollicitudin nisl aliquam ut.
+              </p>
             </div>
           </div>
         </div>
@@ -254,17 +260,23 @@
             <a href="programa.html" class="footer__link">Actividades</a>
           </li>
           <li class="footer__list-item">
-            <a href="programa.html" class="footer__link">Actividades extracurriculares</a>
+            <a href="programa.html" class="footer__link"
+              >Actividades extracurriculares</a
+            >
           </li>
           <li class="footer__list-item">
-            <a href="programa.html" class="footer__link">Mas sobre nuestro método</a>
+            <a href="programa.html" class="footer__link"
+              >Mas sobre nuestro método</a
+            >
           </li>
         </ul>
         <div class="footer__container">
           <div class="footer__vacantes">
             <p class="footer__bajada">¡Puedes reservar ya!</p>
             <p class="footer__bajada">Mas de 50 vacantes disponibles</p>
-            <a href="inscripcion.html" class="footer__btn">¡Reservar vacante!</a>
+            <a href="inscripcion.html" class="footer__btn"
+              >¡Reservar vacante!</a
+            >
           </div>
           <div class="footer__social">
             <p class="footer__bajada">Siguenos</p>

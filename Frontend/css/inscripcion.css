@@ -16,8 +16,9 @@ body {
   grid-template-rows: auto auto auto auto;
   margin: 0 auto;
   position: relative;
-  /*top: -155px;
-    z-index: -1;*/
+  /*top: -50px;
+  z-index: -1;
+  overflow: hidden;*/
 }
 .caja {
   background-color: gray;

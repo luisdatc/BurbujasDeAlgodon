@@ -61,10 +61,21 @@ body {
   justify-content: center;
 }
 
-.cards {
-  margin-top: 20px;
+.cards1{
+  margin-left: 10rem;
+  padding: 0;
+}
+.section__cards{
+  text-align: -webkit-center;
 }
 
+.cardimg{
+  margin-top: 10rem;
+}
+
+p{
+  text-align: justify;
+}
 .cardsf1 {
   margin-top: 20px;
 }
@@ -75,13 +86,3 @@ body {
   width: 300px;
 }
 
-.card h1 {
-  /*arreglar estas propiedades*/
-  font-family: "Dongle", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  letter-spacing: -0.03em;
-  color: #ffffff;
-  margin: 0% !important;
-}

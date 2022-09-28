@@ -1,4 +1,4 @@
-.navbar {
+/*.navbar {
   background: url(../web/Algodon_fondoNAV.png);
   background-repeat: repeat-x;
   background-size: contain;
@@ -73,3 +73,55 @@
   width: 5rem;
   margin-right: 1rem;
 }
+*/
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  background: url(../web/Algodon_fondoNAV.png);
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  height: 11.5rem;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.navbar-expand-lg {
+  align-items: baseline;
+}
+.nav-item {
+  font-family: Dongle;
+  font-size: 3.6rem;
+  font-weight: 400;
+  color: #4557f6;
+}
+.nav-link {
+  margin: 0 0.5rem;
+}
+.nav-link img {
+  width: 3.6rem;
+  height: 3.6rem;
+  margin-right: 1rem;
+}
+.navbar-brand {
+  font-size: 4.8rem;
+  height: 2.9rem;
+  font-family: Dongle;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 7rem;
+  letter-spacing: 0em;
+  color: #4557f6;
+}
+
+.nav__links a {
+  margin-right: 5rem;
+}
+
+.navbar-toggler{
+  border: none;
+}
+

@@ -12,11 +12,11 @@ body {
   );
 }
 
-.txt__main{
-    font-family: "Dongle", sans-serif;
-    font-weight: 700;
-    font-size: 72px;
-    color: #fff;
+.txt__main {
+  font-family: "Dongle", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #fff;
 }
 
 .txt__card {
@@ -36,11 +36,20 @@ body {
   height: 62px;
 }
 
-.txt__obj{
-    line-height: 26px;
-    font-family: "Dongle", sans-serif;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 36.5px;
-    margin-top: 20px;
+.txt__obj {
+  line-height: 26px;
+  font-family: "Dongle", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 36.5px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: Dongle;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: justify;
 }

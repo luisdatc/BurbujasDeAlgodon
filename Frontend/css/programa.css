@@ -44,7 +44,7 @@ body {
   background-image: url(../imagenes/Ellipse\ 16.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   height: 238px;
   display: flex;
   justify-content: center;
@@ -298,6 +298,17 @@ body {
   font-size: 64px;
   font-weight: 700;
   line-height: 37px;
+  letter-spacing: 0em;
+  text-align: justify;
+}
+
+.c15 p,
+.c14 p,
+.c171 p {
+  font-family: Dongle;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 23px;
   letter-spacing: 0em;
   text-align: justify;
 }
