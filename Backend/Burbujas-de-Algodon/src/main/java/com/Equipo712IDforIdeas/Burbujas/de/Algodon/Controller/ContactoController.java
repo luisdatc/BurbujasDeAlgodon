@@ -28,17 +28,17 @@ public class ContactoController {
     String templateString =
         "Tipo: Contacto \n"
             + "Nombre: "
-            + form.getNombre()
+            + form.getName()
             + "\n\n"
             + " Email: "
             + form.getEmail()
             + " \n\n"
             + " Telefono: "
-            + form.getTelefono()
+            + form.getPhone()
             + "\n\n"
             + "Mensaje: "
             + "\n\n"
-            + form.getMensaje();
+            + form.getMessage();
     //    StringSubstitutor sub = new StringSubstitutor(mailData);
     //    String resolvedString = sub.replace(templateString);
     mailServ.send(templateString);
