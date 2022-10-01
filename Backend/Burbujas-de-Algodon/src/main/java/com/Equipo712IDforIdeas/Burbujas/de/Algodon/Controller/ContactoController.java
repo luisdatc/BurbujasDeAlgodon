@@ -2,9 +2,7 @@ package com.Equipo712IDforIdeas.Burbujas.de.Algodon.Controller;
 
 import com.Equipo712IDforIdeas.Burbujas.de.Algodon.Model.Contacto;
 import com.Equipo712IDforIdeas.Burbujas.de.Algodon.Service.EmailSender;
-import java.util.HashMap;
-import java.util.Map;
-import org.apache.commons.text.StringSubstitutor;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -28,17 +26,18 @@ public class ContactoController {
     //    mailData.put("telefono", form.getTelefono());
     //    mailData.put("mensaje", form.getMensaje());
     String templateString =
-        "Nombre: "
+        "Tipo: Contacto \n"
+            + "Nombre: "
             + form.getNombre()
-            + "\n"
+            + "\n\n"
             + " Email: "
             + form.getEmail()
-            + " \n"
+            + " \n\n"
             + " Telefono: "
             + form.getTelefono()
             + "\n\n"
             + "Mensaje: "
-            + "\n"
+            + "\n\n"
             + form.getMensaje();
     //    StringSubstitutor sub = new StringSubstitutor(mailData);
     //    String resolvedString = sub.replace(templateString);

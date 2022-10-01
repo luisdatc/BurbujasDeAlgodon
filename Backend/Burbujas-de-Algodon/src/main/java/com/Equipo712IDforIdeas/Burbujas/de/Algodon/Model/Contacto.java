@@ -10,15 +10,15 @@ import lombok.Setter;
 @Setter
 public class Contacto {
 
-  private String nombre;
+  private String name;
   private String email;
-  private String telefono;
-  private String mensaje;
+  private String phone;
+  private String message;
 
   public Contacto(String nombre, String email, String telefono, String mensaje) {
-    this.nombre = nombre;
+    this.name = nombre;
     this.email = email;
-    this.telefono = telefono;
-    this.mensaje = mensaje;
+    this.phone = telefono;
+    this.message = mensaje;
   }
 }

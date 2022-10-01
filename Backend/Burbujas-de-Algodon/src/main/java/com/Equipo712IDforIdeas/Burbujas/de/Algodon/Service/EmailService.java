@@ -30,8 +30,8 @@ public class EmailService implements EmailSender {
       MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, "utf-8");
 
       helper.setText(email, true);
-      helper.setTo("terlizzileonardo@gmail.com");
-      helper.setSubject("Contacto");
+      helper.setTo("burbujasdealgodonjardin@gmail.com");
+      helper.setSubject("Nuevo Contacto");
       helper.setFrom("api-noreply@BurbujasDeAlgodon.com");
       mailSender.send(mimeMessage);
     } catch (MessagingException e) {
