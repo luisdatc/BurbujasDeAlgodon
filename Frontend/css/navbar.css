@@ -112,16 +112,20 @@ html {
   font-family: Dongle;
   font-size: 4.8rem;
   font-weight: 400;
-  line-height: 7rem;
+  line-height: 0.5rem;
   letter-spacing: 0em;
   color: #4557f6;
+  width: 27%;
 }
 
 .nav__links a {
   margin-right: 5rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 
+span {
+  display: contents;
+}
