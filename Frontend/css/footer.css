@@ -1,4 +1,79 @@
-.footer {
+.footer__main {
+  background-image: url(../web/Algodon_fondo.png);
+  background-size: 100%;
+  height: 210px;
+  background-repeat: no-repeat;
+}
+
+.footer__row {
+  padding-top: 45px;
+}
+.footer__list {
+  list-style: none;
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+  padding-left: 0%;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer__flex1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+h4 {
+  font-family: "Dongle", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer__flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.footer__flex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  width: 241px;
+  height: 50px;
+  background-color: #2b6100;
+  border-radius: 20px;
+  font-family: "Dongle", sans-serif;
+  font-size: 30px;
+}
+
+.footer__link--bold {
+  font-family: "Dongle", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer__redes {
+  width: 17px;
+  height: 17px;
+}
+
+/*.footer {
   display: flex;
   flex-direction: column;
   background-image: url(../web/Algodon_fondo.png);
@@ -96,3 +171,4 @@
   margin-top: 1rem;
   margin-left: 1rem;
 }
+*/

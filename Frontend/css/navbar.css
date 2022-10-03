@@ -122,11 +122,10 @@ html {
   margin-right: 5rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 
-span{
-  display:contents;
+span {
+  display: contents;
 }
-
