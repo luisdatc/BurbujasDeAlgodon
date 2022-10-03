@@ -23,7 +23,7 @@ public class BurbujasDeAlgodonApplication {
             .allowedHeaders("*")
             .allowedMethods("POST")
             .allowCredentials(false)
-            .allowedOrigins(("*"));
+            .allowedOrigins(("https://burbujasdealgodon.netlify.app/"));
       }
     };
   }
