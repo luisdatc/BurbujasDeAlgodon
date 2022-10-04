@@ -87,6 +87,8 @@ html {
   height: 11.5rem;
   background-repeat: repeat-x;
   background-size: cover;
+  position: relative;
+  z-index: 999;
 }
 
 .navbar-expand-lg {

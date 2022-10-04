@@ -16,7 +16,7 @@ body {
   grid-template-rows: auto auto auto auto;
   margin: 0 auto;
   position: relative;
-  /*top: -50px;
+ /* top: -40px;
   z-index: -1;
   overflow: hidden;*/
 }
@@ -184,8 +184,9 @@ form h5 {
 
 .boton {
   display: flex;
-  margin-top: 24px;
+  margin-top: 10px;
 }
+
 .button__reservar {
   height: 65px;
   width: 225px;
