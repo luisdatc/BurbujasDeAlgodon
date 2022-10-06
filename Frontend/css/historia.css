@@ -8,8 +8,8 @@ body {
     #4557f6 -0.67%,
     #4557f6 -0.66%,
     rgba(33, 174, 139, 0.479215) 47.95%,
-    rgba(0, 255, 41, 0) 96.57%
-  );
+    rgba(0, 255, 41, 0) 96.57%);
+  background-repeat: no-repeat;
 }
 
 .txt__main {
@@ -52,4 +52,21 @@ p {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: justify;
+}
+
+/*QUERIES*/
+
+@media (max-width: 576px){
+
+  .navbar-brand{
+    margin-right: 300px;
+  }
+
+  .not__show{
+    display: none;
+  }
+
+  .txt__main{
+    text-align: center;
+  }
 }

@@ -131,3 +131,18 @@ html {
 span {
   display: contents;
 }
+
+/*QUERIES*/
+
+@media (max-width: 576px){
+
+  .navbar-brand{
+    margin-right: 300px;
+  }
+
+  .not__show{
+    display: none;
+  }
+
+
+}

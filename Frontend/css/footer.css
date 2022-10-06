@@ -92,6 +92,36 @@ h4 {
   height: 37px;
 }
 
+/*QUERIES*/
+
+@media (max-width: 576px){
+
+  .not__show{
+    display: none;
+  }
+
+  .footer__main{
+    height: 0;
+  }
+
+  .footer__row--2{
+    background-image: url(../web/Algodon_fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .ul__footerlist{
+    list-style: none;
+  }
+
+}
+
+
 /*.footer {
   display: flex;
   flex-direction: column;
